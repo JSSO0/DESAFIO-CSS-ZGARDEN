@@ -1,0 +1,351 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box
+}    
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Fjalla + One & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+.page-wrapper{
+  background-image: linear-gradient(to bottom, #E8F8FA,#3EA1AD,#FABC8D,#FFCEA8,#AD7850);
+}
+
+
+h1{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 120px;
+  position: sticky;
+  text-shadow: rgb(0, 0, 0) 10px 5px 5px;
+  color: #f8f8f8;
+}
+
+h2{
+  font-family: 'Fruktur', cursive;
+  font-size: 45px;
+  top: 50px;
+  left: 65px;
+  right: 10px;
+  margin-bottom: -180px;
+  position: relative;
+  text-shadow: 0 0 0.2em rgb(189, 141, 9) ;
+}
+
+h3{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 0 0.2em rgb(18, 236, 91), 0 0 0.2em rgb(18, 236, 91),0 0 0.2em rgb(18, 236, 91);
+}
+
+/*ok a demonstration of*/
+.summary{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-image: url(01.gif);
+  display: inline-block;
+  position: relative;
+  border-radius: 10px;
+  left: 60px;
+  margin-top: 250px;
+  right: 50px;
+  transition: all 0.2s;
+  width: 600px;
+  height: 281px;
+  box-shadow: 5px 5px 10px  black;
+  border-radius: 10px;
+  border:4px solid;
+}
+.summary:hover{
+  transform: scale(1.1);
+}
+.summary p{
+  font-size: 37px;
+  color: #ffff;
+  text-shadow: rgb(245, 149, 5) 2px 2px 2px;
+}
+
+.summary a:link{
+  text-decoration: none;
+  font-family: 'Fruktur',cursive;
+  color: red;
+  text-transform: uppercase;
+}
+
+p{
+  color:rgb(0, 0, 0);
+  font-size: 24px;
+  /*text-shadow: rgb(245, 149, 5) 2px 2px 2px;*/
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/*ok the road*/
+.preamble{
+ font-family: arial;
+ position: relative;
+ border-radius: 10px;
+ left: 700px;
+ margin-top: -350px;
+ right: 50px;
+ transition: all 0.3s;
+ background-image: url(02.gif);
+ width: 560px;
+ height: 520px;
+ box-shadow: 5px 5px 10px  black;
+ border-radius: 10px;
+ border:4px solid;
+} 
+
+.preamble:hover{
+  transform: scale(1.1);
+}
+
+.preamble h3{
+  font-size: 55px;
+  text-transform: uppercase;
+}
+.preamble p{
+  font-size: 25px;
+  text-align: center;
+  color: rgb(231, 231, 240);
+  text-shadow: rgb(238, 147, 11) 2px 2px 2px;
+}
+
+/*ok so what*/
+.explanation{
+ font-family: arial;
+ background-image: url(03.gif);
+ width: 1080px;
+ height: 540px;
+ position: relative;
+ font-size: 12px;
+ border-radius: 10px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 69px;
+ transition: all 0.2s;
+ box-shadow: 5px 5px 10px  black;
+ border-radius: 10px;
+ border:4px solid;
+}
+.explanation p{
+  font-size: 33px;
+  text-align: center;
+  text-shadow: rgb(245, 149, 5) 2px 2px 2px;
+}
+.explanation:hover{
+  transform: scale(1.2);
+}
+
+.explanation h3{
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+
+/*ok participation*/
+.participation{
+ background-image: url(04.gif);
+ width: 600px;
+ height: 520px;
+ position: relative;
+ font-size: 10px;
+ border-radius: 10px;
+ position:relative;
+ transition: all 0.2s;
+ left: 80px;
+ right: 50px;
+ margin-top: 100px;
+ box-shadow: 5px 5px 10px  black;
+ border-radius: 10px;
+ border:4px solid;
+}
+.participation p{
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(255, 0, 0) 2px 2px 2px;
+}
+.participation a:link{
+ text-decoration: none;
+ font-family: 'Fruktur',cursive;
+ color: red;
+ text-transform: uppercase;
+}
+.participation:hover{
+  transform: scale(1.15);
+}
+
+.participation h3{
+  text-transform: uppercase;
+  font-family: arial;
+  font-size: 50px;
+}
+
+/*ok*/
+.benefits{
+font-family: arial;
+background-image: url(05.gif);
+width: 417px;
+height: 520px;
+position: relative;
+font-size: 12px;
+border-radius: 10px;
+position:relative;
+transition: all 0.2s;
+left: 800px;
+margin-top: -520px;
+box-shadow: 5px 5px 10px  black;
+border-radius: 10px;
+border:4px solid;
+}
+.benefits p{
+  font-size: 32px;
+  text-align: center;
+  text-shadow: white 2px 2px 2px;
+  color: rgb(78, 141, 42);
+}
+.benefits:hover{
+  transform: scale(1.2);
+}
+
+.benefits h3{
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+
+/*ok*/
+.requirements{
+  font-family: arial;
+  background-image: url(06.gif);
+  width: 1200px;
+  height: 540px;
+  position: relative;
+  font-size: 12px;
+  border-radius: 10px;
+  transition: all 0.2s;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  border:4px solid;
+  box-shadow: 5px 5px 10px black;
+}
+.requirements a:link{
+ text-decoration: none;
+ font-family: 'Fruktur',cursive;
+ color: red;
+ text-transform: uppercase;
+}
+.requirements:hover{
+  transform: scale(1.1);
+}
+.requirements p{
+  text-align: center;
+  font-size: 23px;
+  color: #ffff;
+  text-shadow: rgb(247, 157, 72) 2px 2px 2px;
+}
+.requirements h3{
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+
+.mainsupporting  a:link{
+color: #000;
+}
+
+/*listas*/
+/*1*/
+.design-selection ul li{ 
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #FEEBDD,#C3DAE8, #FDF6E8, #B7BFE8, #FFF4B5);
+  color: rgb(0, 0, 0);
+  display: inline; 
+  list-style:none;
+  font-family: 'Fjalla One', sans-serif;
+  font-style: oblique;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+  float: left;
+  margin-right: 5px;
+}
+.design-selection a:link{
+  text-decoration: none;
+}
+.design-selection h3{
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+/*2*/
+.design-archives ul li{
+padding: 5px 25px;
+border-radius: 10px;
+background-image: linear-gradient(to bottom,  #2BE1FF,#EBDF22, #FF3845, #0280E8, #D1FF03);
+color: rgb(0, 0, 0);
+display: inline; 
+list-style:none;
+font-family: 'Fjalla One', sans-serif;
+font-style:oblique;
+font-size: 20px;
+margin-left: 20px;
+margin-bottom: 30px;
+}
+.design-archives a:link{
+  text-decoration: none;
+  color: yellow;
+}
+.design-archives h3{
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 150px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+/*3*/
+.zen-resources ul li{
+  padding: 5px 25px;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #FEBC4A, #E66D43,#FC56A4, #9637E6, #002FFF);
+  color: rgb(0, 0, 0);
+  display: inline; 
+  list-style:none;
+  font-family: 'Fjalla One', sans-serif;
+  font-style: oblique;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.zen-resources a:link{
+  text-decoration: none;
+}
+
+.zen-resources h3{
+  text-align: left;
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+/*html css*/
+footer a{
+  opacity: 0%;
+}
